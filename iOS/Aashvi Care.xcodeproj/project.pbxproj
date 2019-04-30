@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032D2EF1845200770367EC02 /* libPods-Aashvi CareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E81266F149917C9412B1C4E /* libPods-Aashvi CareTests.a */; };
+		050A9C4B2261EC6A0015DFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A9C4A2261EC6A0015DFF9 /* AppDelegate.swift */; };
+		050A9C502261EC6A0015DFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C4E2261EC6A0015DFF9 /* Main.storyboard */; };
+		050A9C522261EC6B0015DFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C512261EC6B0015DFF9 /* Assets.xcassets */; };
+		050A9C552261EC6B0015DFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */; };
+		050A9C6B2261EC6C0015DFF9 /* Aashvi_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A9C6A2261EC6C0015DFF9 /* Aashvi_CareUITests.swift */; };
+		050A9C792261ECAE0015DFF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */; };
+		053332692278373A00E33642 /* AllHospitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332682278373A00E33642 /* AllHospitals.swift */; };
+		053332702278407700E33642 /* AllHospitalsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533326F2278407700E33642 /* AllHospitalsTVC.swift */; };
+		053332732278409D00E33642 /* HospitalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332722278409D00E33642 /* HospitalDataHelper.swift */; };
+		05333275227840C800E33642 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05333274227840C800E33642 /* Hospital.swift */; };
+		0533327B2278435E00E33642 /* HospitalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332792278435E00E33642 /* HospitalCell.swift */; };
+		0533327C2278435E00E33642 /* HospitalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0533327A2278435E00E33642 /* HospitalCell.xib */; };
+		053332812278652300E33642 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332802278652300E33642 /* UILabel+Extension.swift */; };
+		053332832278672700E33642 /* UILabelExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332822278672700E33642 /* UILabelExtensionsTests.swift */; };
+		5855F7B5704BBE02DE61D6F0 /* Pods_Aashvi_CareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */; };
+		F20B0CDBFFB40E1161FAB956 /* Pods_Aashvi_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		050A9C5C2261EC6C0015DFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 050A9C3F2261EC6A0015DFF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050A9C462261EC6A0015DFF9;
+			remoteInfo = "Aashvi Care";
+		};
+		050A9C672261EC6C0015DFF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 050A9C3F2261EC6A0015DFF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050A9C462261EC6A0015DFF9;
+			remoteInfo = "Aashvi Care";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050A9C472261EC6A0015DFF9 /* Aashvi Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aashvi Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050A9C4A2261EC6A0015DFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		050A9C4F2261EC6A0015DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		050A9C512261EC6B0015DFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		050A9C542261EC6B0015DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		050A9C562261EC6B0015DFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050A9C5B2261EC6C0015DFF9 /* Aashvi CareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aashvi CareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050A9C612261EC6C0015DFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050A9C662261EC6C0015DFF9 /* Aashvi CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aashvi CareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050A9C6A2261EC6C0015DFF9 /* Aashvi_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aashvi_CareUITests.swift; sourceTree = "<group>"; };
+		050A9C6C2261EC6C0015DFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		053332682278373A00E33642 /* AllHospitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHospitals.swift; sourceTree = "<group>"; };
+		0533326F2278407700E33642 /* AllHospitalsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllHospitalsTVC.swift; sourceTree = "<group>"; };
+		053332722278409D00E33642 /* HospitalDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDataHelper.swift; sourceTree = "<group>"; };
+		05333274227840C800E33642 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		053332792278435E00E33642 /* HospitalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCell.swift; sourceTree = "<group>"; };
+		0533327A2278435E00E33642 /* HospitalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalCell.xib; sourceTree = "<group>"; };
+		053332802278652300E33642 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		053332822278672700E33642 /* UILabelExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensionsTests.swift; sourceTree = "<group>"; };
+		4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aashvi_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C818D452D3ADAB42B472FE /* Pods-Aashvi CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareUITests/Pods-Aashvi CareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		713451B5187B49842A1B8EA1 /* Pods-Aashvi Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi Care.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care.debug.xcconfig"; sourceTree = "<group>"; };
+		8C2522B1C6FCA0FE3C24743C /* Pods-Aashvi Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi Care.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care.release.xcconfig"; sourceTree = "<group>"; };
+		8E81266F149917C9412B1C4E /* libPods-Aashvi CareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aashvi CareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A67CC6C298C323CEF0D002F /* Pods-Aashvi CareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareTests/Pods-Aashvi CareTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1DDEF6162A72F1FD31611EC /* Pods-Aashvi CareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareUITests/Pods-Aashvi CareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aashvi_CareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1326D8152C3644DDAD6DB62 /* Pods-Aashvi CareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareTests/Pods-Aashvi CareTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		050A9C442261EC6A0015DFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20B0CDBFFB40E1161FAB956 /* Pods_Aashvi_Care.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050A9C582261EC6C0015DFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032D2EF1845200770367EC02 /* libPods-Aashvi CareTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050A9C632261EC6C0015DFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5855F7B5704BBE02DE61D6F0 /* Pods_Aashvi_CareUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050A9C3E2261EC6A0015DFF9 = {
+			isa = PBXGroup;
+			children = (
+				050A9C492261EC6A0015DFF9 /* Aashvi Care */,
+				050A9C5E2261EC6C0015DFF9 /* Aashvi CareTests */,
+				050A9C692261EC6C0015DFF9 /* Aashvi CareUITests */,
+				050A9C482261EC6A0015DFF9 /* Products */,
+				069BEE4421DCC964984E87E7 /* Pods */,
+				9891D837C4572B5103B8448C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		050A9C482261EC6A0015DFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				050A9C472261EC6A0015DFF9 /* Aashvi Care.app */,
+				050A9C5B2261EC6C0015DFF9 /* Aashvi CareTests.xctest */,
+				050A9C662261EC6C0015DFF9 /* Aashvi CareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		050A9C492261EC6A0015DFF9 /* Aashvi Care */ = {
+			isa = PBXGroup;
+			children = (
+				0533327F2278652300E33642 /* Extension */,
+				053332712278408500E33642 /* Model */,
+				053332762278432C00E33642 /* View */,
+				0533326E2278407700E33642 /* ViewControllers */,
+				050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */,
+				050A9C4A2261EC6A0015DFF9 /* AppDelegate.swift */,
+				050A9C4E2261EC6A0015DFF9 /* Main.storyboard */,
+				050A9C512261EC6B0015DFF9 /* Assets.xcassets */,
+				050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */,
+				050A9C562261EC6B0015DFF9 /* Info.plist */,
+			);
+			path = "Aashvi Care";
+			sourceTree = "<group>";
+		};
+		050A9C5E2261EC6C0015DFF9 /* Aashvi CareTests */ = {
+			isa = PBXGroup;
+			children = (
+				053332682278373A00E33642 /* AllHospitals.swift */,
+				050A9C612261EC6C0015DFF9 /* Info.plist */,
+				053332822278672700E33642 /* UILabelExtensionsTests.swift */,
+			);
+			path = "Aashvi CareTests";
+			sourceTree = "<group>";
+		};
+		050A9C692261EC6C0015DFF9 /* Aashvi CareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				050A9C6A2261EC6C0015DFF9 /* Aashvi_CareUITests.swift */,
+				050A9C6C2261EC6C0015DFF9 /* Info.plist */,
+			);
+			path = "Aashvi CareUITests";
+			sourceTree = "<group>";
+		};
+		0533326E2278407700E33642 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0533326F2278407700E33642 /* AllHospitalsTVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		053332712278408500E33642 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				053332722278409D00E33642 /* HospitalDataHelper.swift */,
+				05333274227840C800E33642 /* Hospital.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		053332762278432C00E33642 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				053332792278435E00E33642 /* HospitalCell.swift */,
+				0533327A2278435E00E33642 /* HospitalCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0533327F2278652300E33642 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				053332802278652300E33642 /* UILabel+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		069BEE4421DCC964984E87E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				713451B5187B49842A1B8EA1 /* Pods-Aashvi Care.debug.xcconfig */,
+				8C2522B1C6FCA0FE3C24743C /* Pods-Aashvi Care.release.xcconfig */,
+				F1326D8152C3644DDAD6DB62 /* Pods-Aashvi CareTests.debug.xcconfig */,
+				9A67CC6C298C323CEF0D002F /* Pods-Aashvi CareTests.release.xcconfig */,
+				D1DDEF6162A72F1FD31611EC /* Pods-Aashvi CareUITests.debug.xcconfig */,
+				60C818D452D3ADAB42B472FE /* Pods-Aashvi CareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9891D837C4572B5103B8448C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */,
+				DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */,
+				8E81266F149917C9412B1C4E /* libPods-Aashvi CareTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050A9C462261EC6A0015DFF9 /* Aashvi Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050A9C6F2261EC6C0015DFF9 /* Build configuration list for PBXNativeTarget "Aashvi Care" */;
+			buildPhases = (
+				8B2F8F2242307C0AE786F3B7 /* [CP] Check Pods Manifest.lock */,
+				050A9C432261EC6A0015DFF9 /* Sources */,
+				050A9C442261EC6A0015DFF9 /* Frameworks */,
+				050A9C452261EC6A0015DFF9 /* Resources */,
+				F203177611E355C69646578F /* [CP] Embed Pods Frameworks */,
+				050A9C7A2261F5E90015DFF9 /* Fabric upload-symbols Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aashvi Care";
+			productName = "Aashvi Care";
+			productReference = 050A9C472261EC6A0015DFF9 /* Aashvi Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+		050A9C5A2261EC6C0015DFF9 /* Aashvi CareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050A9C722261EC6C0015DFF9 /* Build configuration list for PBXNativeTarget "Aashvi CareTests" */;
+			buildPhases = (
+				A836B175D6AE698AC101ADD8 /* [CP] Check Pods Manifest.lock */,
+				050A9C572261EC6C0015DFF9 /* Sources */,
+				050A9C582261EC6C0015DFF9 /* Frameworks */,
+				050A9C592261EC6C0015DFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050A9C5D2261EC6C0015DFF9 /* PBXTargetDependency */,
+			);
+			name = "Aashvi CareTests";
+			productName = "Aashvi CareTests";
+			productReference = 050A9C5B2261EC6C0015DFF9 /* Aashvi CareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		050A9C652261EC6C0015DFF9 /* Aashvi CareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050A9C752261EC6C0015DFF9 /* Build configuration list for PBXNativeTarget "Aashvi CareUITests" */;
+			buildPhases = (
+				5B7DAFFF619E1CC920720330 /* [CP] Check Pods Manifest.lock */,
+				050A9C622261EC6C0015DFF9 /* Sources */,
+				050A9C632261EC6C0015DFF9 /* Frameworks */,
+				050A9C642261EC6C0015DFF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050A9C682261EC6C0015DFF9 /* PBXTargetDependency */,
+			);
+			name = "Aashvi CareUITests";
+			productName = "Aashvi CareUITests";
+			productReference = 050A9C662261EC6C0015DFF9 /* Aashvi CareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		050A9C3F2261EC6A0015DFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bishal Ghimire";
+				TargetAttributes = {
+					050A9C462261EC6A0015DFF9 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					050A9C5A2261EC6C0015DFF9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 050A9C462261EC6A0015DFF9;
+					};
+					050A9C652261EC6C0015DFF9 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 050A9C462261EC6A0015DFF9;
+					};
+				};
+			};
+			buildConfigurationList = 050A9C422261EC6A0015DFF9 /* Build configuration list for PBXProject "Aashvi Care" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 050A9C3E2261EC6A0015DFF9;
+			productRefGroup = 050A9C482261EC6A0015DFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050A9C462261EC6A0015DFF9 /* Aashvi Care */,
+				050A9C5A2261EC6C0015DFF9 /* Aashvi CareTests */,
+				050A9C652261EC6C0015DFF9 /* Aashvi CareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050A9C452261EC6A0015DFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050A9C552261EC6B0015DFF9 /* LaunchScreen.storyboard in Resources */,
+				050A9C792261ECAE0015DFF9 /* GoogleService-Info.plist in Resources */,
+				050A9C522261EC6B0015DFF9 /* Assets.xcassets in Resources */,
+				0533327C2278435E00E33642 /* HospitalCell.xib in Resources */,
+				050A9C502261EC6A0015DFF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050A9C592261EC6C0015DFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050A9C642261EC6C0015DFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		050A9C7A2261F5E90015DFF9 /* Fabric upload-symbols Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+			);
+			name = "Fabric upload-symbols Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/upload-symbols\" -gsp \"${PROJECT_DIR}/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n\necho \"${DWARF_DSYM_FOLDER_PATH}\"\necho \"${DWARF_DSYM_FILE_NAME}\"\nexit 0\n";
+		};
+		5B7DAFFF619E1CC920720330 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aashvi CareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2F8F2242307C0AE786F3B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aashvi Care-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A836B175D6AE698AC101ADD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aashvi CareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F203177611E355C69646578F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050A9C432261EC6A0015DFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053332702278407700E33642 /* AllHospitalsTVC.swift in Sources */,
+				05333275227840C800E33642 /* Hospital.swift in Sources */,
+				053332812278652300E33642 /* UILabel+Extension.swift in Sources */,
+				050A9C4B2261EC6A0015DFF9 /* AppDelegate.swift in Sources */,
+				0533327B2278435E00E33642 /* HospitalCell.swift in Sources */,
+				053332732278409D00E33642 /* HospitalDataHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050A9C572261EC6C0015DFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053332832278672700E33642 /* UILabelExtensionsTests.swift in Sources */,
+				053332692278373A00E33642 /* AllHospitals.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050A9C622261EC6C0015DFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050A9C6B2261EC6C0015DFF9 /* Aashvi_CareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050A9C5D2261EC6C0015DFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050A9C462261EC6A0015DFF9 /* Aashvi Care */;
+			targetProxy = 050A9C5C2261EC6C0015DFF9 /* PBXContainerItemProxy */;
+		};
+		050A9C682261EC6C0015DFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050A9C462261EC6A0015DFF9 /* Aashvi Care */;
+			targetProxy = 050A9C672261EC6C0015DFF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		050A9C4E2261EC6A0015DFF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050A9C4F2261EC6A0015DFF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050A9C542261EC6B0015DFF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		050A9C6D2261EC6C0015DFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		050A9C6E2261EC6C0015DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		050A9C702261EC6C0015DFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713451B5187B49842A1B8EA1 /* Pods-Aashvi Care.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3A474L87T6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Aashvi Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bigbsoft.Aashvi-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		050A9C712261EC6C0015DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2522B1C6FCA0FE3C24743C /* Pods-Aashvi Care.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A474L87T6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Aashvi Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bigbsoft.Aashvi-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		050A9C732261EC6C0015DFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1326D8152C3644DDAD6DB62 /* Pods-Aashvi CareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A474L87T6;
+				INFOPLIST_FILE = "Aashvi CareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bigbsoft.Aashvi-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aashvi Care.app/Aashvi Care";
+			};
+			name = Debug;
+		};
+		050A9C742261EC6C0015DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A67CC6C298C323CEF0D002F /* Pods-Aashvi CareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A474L87T6;
+				INFOPLIST_FILE = "Aashvi CareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bigbsoft.Aashvi-CareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aashvi Care.app/Aashvi Care";
+			};
+			name = Release;
+		};
+		050A9C762261EC6C0015DFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1DDEF6162A72F1FD31611EC /* Pods-Aashvi CareUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A474L87T6;
+				INFOPLIST_FILE = "Aashvi CareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bigbsoft.Aashvi-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aashvi Care";
+			};
+			name = Debug;
+		};
+		050A9C772261EC6C0015DFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C818D452D3ADAB42B472FE /* Pods-Aashvi CareUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A474L87T6;
+				INFOPLIST_FILE = "Aashvi CareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bigbsoft.Aashvi-CareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Aashvi Care";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050A9C422261EC6A0015DFF9 /* Build configuration list for PBXProject "Aashvi Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050A9C6D2261EC6C0015DFF9 /* Debug */,
+				050A9C6E2261EC6C0015DFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050A9C6F2261EC6C0015DFF9 /* Build configuration list for PBXNativeTarget "Aashvi Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050A9C702261EC6C0015DFF9 /* Debug */,
+				050A9C712261EC6C0015DFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050A9C722261EC6C0015DFF9 /* Build configuration list for PBXNativeTarget "Aashvi CareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050A9C732261EC6C0015DFF9 /* Debug */,
+				050A9C742261EC6C0015DFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050A9C752261EC6C0015DFF9 /* Build configuration list for PBXNativeTarget "Aashvi CareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050A9C762261EC6C0015DFF9 /* Debug */,
+				050A9C772261EC6C0015DFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 050A9C3F2261EC6A0015DFF9 /* Project object */;
+}
