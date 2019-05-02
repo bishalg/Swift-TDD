@@ -14,7 +14,7 @@
 		050A9C552261EC6B0015DFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */; };
 		050A9C6B2261EC6C0015DFF9 /* Aashvi_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A9C6A2261EC6C0015DFF9 /* Aashvi_CareUITests.swift */; };
 		050A9C792261ECAE0015DFF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */; };
-		053332692278373A00E33642 /* AllHospitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332682278373A00E33642 /* AllHospitals.swift */; };
+		053332692278373A00E33642 /* AllHospitalsTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332682278373A00E33642 /* AllHospitalsTVCTests.swift */; };
 		053332702278407700E33642 /* AllHospitalsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533326F2278407700E33642 /* AllHospitalsTVC.swift */; };
 		053332732278409D00E33642 /* HospitalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332722278409D00E33642 /* HospitalDataHelper.swift */; };
 		05333275227840C800E33642 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05333274227840C800E33642 /* Hospital.swift */; };
@@ -34,6 +34,7 @@
 		05C76C54227ADA0F006E6BEA /* HospitalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C53227ADA0F006E6BEA /* HospitalDetailsVC.swift */; };
 		05C76C5B227ADB56006E6BEA /* HospitalProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C59227ADB56006E6BEA /* HospitalProfileCell.swift */; };
 		05C76C5C227ADB56006E6BEA /* HospitalProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C76C5A227ADB56006E6BEA /* HospitalProfileCell.xib */; };
+		05C76C61227AECEE006E6BEA /* HospitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C60227AECEE006E6BEA /* HospitalTests.swift */; };
 		5855F7B5704BBE02DE61D6F0 /* Pods_Aashvi_CareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */; };
 		F20B0CDBFFB40E1161FAB956 /* Pods_Aashvi_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */; };
 /* End PBXBuildFile section */
@@ -68,7 +69,7 @@
 		050A9C6A2261EC6C0015DFF9 /* Aashvi_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aashvi_CareUITests.swift; sourceTree = "<group>"; };
 		050A9C6C2261EC6C0015DFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		053332682278373A00E33642 /* AllHospitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHospitals.swift; sourceTree = "<group>"; };
+		053332682278373A00E33642 /* AllHospitalsTVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHospitalsTVCTests.swift; sourceTree = "<group>"; };
 		0533326F2278407700E33642 /* AllHospitalsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllHospitalsTVC.swift; sourceTree = "<group>"; };
 		053332722278409D00E33642 /* HospitalDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDataHelper.swift; sourceTree = "<group>"; };
 		05333274227840C800E33642 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		05C76C53227ADA0F006E6BEA /* HospitalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDetailsVC.swift; sourceTree = "<group>"; };
 		05C76C59227ADB56006E6BEA /* HospitalProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalProfileCell.swift; sourceTree = "<group>"; };
 		05C76C5A227ADB56006E6BEA /* HospitalProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalProfileCell.xib; sourceTree = "<group>"; };
+		05C76C60227AECEE006E6BEA /* HospitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalTests.swift; sourceTree = "<group>"; };
 		4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aashvi_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C818D452D3ADAB42B472FE /* Pods-Aashvi CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareUITests/Pods-Aashvi CareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		713451B5187B49842A1B8EA1 /* Pods-Aashvi Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi Care.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,9 +172,10 @@
 		050A9C5E2261EC6C0015DFF9 /* Aashvi CareTests */ = {
 			isa = PBXGroup;
 			children = (
-				053332682278373A00E33642 /* AllHospitals.swift */,
+				05C76C5F227AEC96006E6BEA /* ControllerTests */,
+				05C76C5E227AEC8A006E6BEA /* ViewTests */,
+				05C76C5D227AEC7F006E6BEA /* ModelTests */,
 				050A9C612261EC6C0015DFF9 /* Info.plist */,
-				053332822278672700E33642 /* UILabelExtensionsTests.swift */,
 			);
 			path = "Aashvi CareTests";
 			sourceTree = "<group>";
@@ -293,6 +296,30 @@
 			children = (
 			);
 			path = HospitalMapView;
+			sourceTree = "<group>";
+		};
+		05C76C5D227AEC7F006E6BEA /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				05C76C60227AECEE006E6BEA /* HospitalTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		05C76C5E227AEC8A006E6BEA /* ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				053332822278672700E33642 /* UILabelExtensionsTests.swift */,
+			);
+			path = ViewTests;
+			sourceTree = "<group>";
+		};
+		05C76C5F227AEC96006E6BEA /* ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				053332682278373A00E33642 /* AllHospitalsTVCTests.swift */,
+			);
+			path = ControllerTests;
 			sourceTree = "<group>";
 		};
 		069BEE4421DCC964984E87E7 /* Pods */ = {
@@ -600,7 +627,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				053332832278672700E33642 /* UILabelExtensionsTests.swift in Sources */,
-				053332692278373A00E33642 /* AllHospitals.swift in Sources */,
+				05C76C61227AECEE006E6BEA /* HospitalTests.swift in Sources */,
+				053332692278373A00E33642 /* AllHospitalsTVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

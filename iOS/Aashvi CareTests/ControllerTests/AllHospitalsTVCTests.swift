@@ -13,7 +13,7 @@ import Nimble
 @testable
 import Aashvi_Care
 
-class HospitalsTest: QuickSpec {
+class AllHospitalsTVCTest: QuickSpec {
 
     override func spec() {
         var subject: AllHospitalsTVC!
@@ -32,14 +32,14 @@ class HospitalsTest: QuickSpec {
             }
             
             context("Table View") {
-                var cell: HospitalCell!
+                var cell: CellTitleDetails!
                 
                 beforeEach {
-                    cell = subject.tableView(subject.tableView, cellForRowAt: IndexPath(row: 0, section: 0)) as? HospitalCell
+                    cell = subject.tableView(subject.tableView, cellForRowAt: IndexPath(row: 0, section: 0)) as? CellTitleDetails
                 }
-                it("should show Medicity title and ID 1 and a dot") {
-                    expect(cell.idLabel?.text).to(equal("1."))
+                it("should show Medicity as title and details as ID 1") {
                     expect(cell.titleLabel?.text).to(equal("Medicity"))
+                    expect(cell.detailLabel?.text).to(equal("1"))
                 }
                 
             }

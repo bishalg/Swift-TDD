@@ -40,10 +40,13 @@ extension Hospital: JSONAbleType {
     static func fromJSON(_ json: [String : Any]) -> Hospital {
         let json = JSON(json)
         
-        let id = json["id"].stringValue
-        let name = json["id"].stringValue
+        let id = json[Hospital.CodingKeys.id.rawValue ].stringValue
+        let name = json[Hospital.CodingKeys.name.rawValue].stringValue
         
-        return Hospital(id: id, name: name, coordinate: nil)
+        let coordinateJSON = json[Hospital.CodingKeys.coordinate.rawValue].dictionaryValue
+        let coordinate = Coordinate.fromJSON(coordinateJSON)
+        
+        return Hospital(id: id, name: name, coordinate: coordinate)
     }
 }
 
