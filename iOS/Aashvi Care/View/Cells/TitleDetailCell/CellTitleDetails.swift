@@ -12,7 +12,11 @@ typealias CellTitleDetailsPresentables = CellTitlePresentable
 
 class CellTitleDetails: UITableViewCell {
     
-    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var titleLabel: UILabel! {
+        didSet {
+            
+        }
+    }
     @IBOutlet var detailLabel: UILabel!
 
     override func awakeFromNib() {
