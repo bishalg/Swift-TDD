@@ -22,9 +22,7 @@ class AllHospitalsTVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let hospitalCell = UINib.init(nibName: "HospitalCell", bundle: nil)
-        tableView.register(hospitalCell, forCellReuseIdentifier: "HospitalCell")
-        
+        title = "Hospitals"
         tableView.register(CellTitleDetails.self)
     }
 
@@ -39,7 +37,7 @@ class AllHospitalsTVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as CellTitleDetails        
+        let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as CellTitleDetails
         let hospital = hospitalData[indexPath.row]
         cell.titleLabel.text = hospital.name
         cell.detailLabel.text = hospital.id

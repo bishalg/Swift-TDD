@@ -31,6 +31,9 @@
 		05C76C4C227ABD6F006E6BEA /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C4B227ABD6F006E6BEA /* NibLoadableView.swift */; };
 		05C76C4E227ABEBC006E6BEA /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C4D227ABEBC006E6BEA /* ReusableView.swift */; };
 		05C76C50227ABF24006E6BEA /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C4F227ABF24006E6BEA /* UITableView+Extension.swift */; };
+		05C76C54227ADA0F006E6BEA /* HospitalDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C53227ADA0F006E6BEA /* HospitalDetailsVC.swift */; };
+		05C76C5B227ADB56006E6BEA /* HospitalProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C59227ADB56006E6BEA /* HospitalProfileCell.swift */; };
+		05C76C5C227ADB56006E6BEA /* HospitalProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C76C5A227ADB56006E6BEA /* HospitalProfileCell.xib */; };
 		5855F7B5704BBE02DE61D6F0 /* Pods_Aashvi_CareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */; };
 		F20B0CDBFFB40E1161FAB956 /* Pods_Aashvi_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +85,9 @@
 		05C76C4B227ABD6F006E6BEA /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		05C76C4D227ABEBC006E6BEA /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		05C76C4F227ABF24006E6BEA /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		05C76C53227ADA0F006E6BEA /* HospitalDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDetailsVC.swift; sourceTree = "<group>"; };
+		05C76C59227ADB56006E6BEA /* HospitalProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalProfileCell.swift; sourceTree = "<group>"; };
+		05C76C5A227ADB56006E6BEA /* HospitalProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalProfileCell.xib; sourceTree = "<group>"; };
 		4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aashvi_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C818D452D3ADAB42B472FE /* Pods-Aashvi CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareUITests/Pods-Aashvi CareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		713451B5187B49842A1B8EA1 /* Pods-Aashvi Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi Care.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				0533326F2278407700E33642 /* AllHospitalsTVC.swift */,
+				05C76C53227ADA0F006E6BEA /* HospitalDetailsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,9 +209,10 @@
 		053332762278432C00E33642 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05C76C58227ADAF3006E6BEA /* HospitalMapView */,
+				05C76C57227ADAE0006E6BEA /* HospitalInfoView */,
+				05C76C56227ADAD1006E6BEA /* HospitalProfileView */,
 				05C76C41227AA94C006E6BEA /* Cells */,
-				053332792278435E00E33642 /* HospitalCell.swift */,
-				0533327A2278435E00E33642 /* HospitalCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 		05C76C41227AA94C006E6BEA /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				05C76C55227ADAB7006E6BEA /* HospitalCell */,
 				05C76C42227AA957006E6BEA /* TitleDetailCell */,
 			);
 			path = Cells;
@@ -252,6 +261,38 @@
 				05C76C44227AA97F006E6BEA /* CellTitleDetails.xib */,
 			);
 			path = TitleDetailCell;
+			sourceTree = "<group>";
+		};
+		05C76C55227ADAB7006E6BEA /* HospitalCell */ = {
+			isa = PBXGroup;
+			children = (
+				053332792278435E00E33642 /* HospitalCell.swift */,
+				0533327A2278435E00E33642 /* HospitalCell.xib */,
+			);
+			path = HospitalCell;
+			sourceTree = "<group>";
+		};
+		05C76C56227ADAD1006E6BEA /* HospitalProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				05C76C59227ADB56006E6BEA /* HospitalProfileCell.swift */,
+				05C76C5A227ADB56006E6BEA /* HospitalProfileCell.xib */,
+			);
+			path = HospitalProfileView;
+			sourceTree = "<group>";
+		};
+		05C76C57227ADAE0006E6BEA /* HospitalInfoView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HospitalInfoView;
+			sourceTree = "<group>";
+		};
+		05C76C58227ADAF3006E6BEA /* HospitalMapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HospitalMapView;
 			sourceTree = "<group>";
 		};
 		069BEE4421DCC964984E87E7 /* Pods */ = {
@@ -391,6 +432,7 @@
 				05C76C46227AA97F006E6BEA /* CellTitleDetails.xib in Resources */,
 				050A9C522261EC6B0015DFF9 /* Assets.xcassets in Resources */,
 				05C76C3D227A9AF4006E6BEA /* Hospitals.json in Resources */,
+				05C76C5C227ADB56006E6BEA /* HospitalProfileCell.xib in Resources */,
 				0533327C2278435E00E33642 /* HospitalCell.xib in Resources */,
 				050A9C502261EC6A0015DFF9 /* Main.storyboard in Resources */,
 			);
@@ -536,10 +578,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				053332702278407700E33642 /* AllHospitalsTVC.swift in Sources */,
+				05C76C54227ADA0F006E6BEA /* HospitalDetailsVC.swift in Sources */,
 				05C76C4A227AB601006E6BEA /* JSONAbleType.swift in Sources */,
 				05C76C45227AA97F006E6BEA /* CellTitleDetails.swift in Sources */,
 				05C76C4E227ABEBC006E6BEA /* ReusableView.swift in Sources */,
 				05C76C40227AA5AC006E6BEA /* CellTitlePresentable.swift in Sources */,
+				05C76C5B227ADB56006E6BEA /* HospitalProfileCell.swift in Sources */,
 				05333275227840C800E33642 /* Hospital.swift in Sources */,
 				05C76C4C227ABD6F006E6BEA /* NibLoadableView.swift in Sources */,
 				053332812278652300E33642 /* UILabel+Extension.swift in Sources */,
