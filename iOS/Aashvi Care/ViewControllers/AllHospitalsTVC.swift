@@ -24,6 +24,8 @@ class AllHospitalsTVC: UITableViewController {
         
         let hospitalCell = UINib.init(nibName: "HospitalCell", bundle: nil)
         tableView.register(hospitalCell, forCellReuseIdentifier: "HospitalCell")
+        
+        tableView.register(CellTitleDetails.self)
     }
 
     // MARK: - Table view data source
@@ -37,10 +39,10 @@ class AllHospitalsTVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HospitalCell", for: indexPath) as! HospitalCell
+        let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as CellTitleDetails        
         let hospital = hospitalData[indexPath.row]
-        cell.idLabel.text = hospital.id + "."
         cell.titleLabel.text = hospital.name
+        cell.detailLabel.text = hospital.id
         return cell
     }
 

@@ -1,0 +1,17 @@
+[{
+    "id": 1,
+    "title": "Medicity",
+    "location": {
+        "latitude": 20.345678,
+        "longitude": 12.45677
+    }
+},
+{
+    "id": 2,
+    "title": "Grandy",
+    "location": {
+        "latitude": 20.345678,
+        "longitude": 13.45677
+    }
+}
+]
