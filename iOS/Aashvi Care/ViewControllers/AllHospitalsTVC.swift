@@ -10,20 +10,15 @@ import UIKit
 
 class AllHospitalsTVC: UITableViewController {
     
-    var hospitalData: [Hospital] {
-        get {
-            return HospitalDataHelper.getData()
-        }
-        set {
-            tableView.reloadData()
-        }
-    }
+    private var hospitalData: [Hospital]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         title = "Hospitals"
         tableView.register(CellTitleDetails.self)
+        
+        hospitalData = HospitalDataHelper.getData()
     }
 
     // MARK: - Table view data source
