@@ -16,18 +16,17 @@ import Aashvi_Care
 class AllHospitalsTVCTest: QuickSpec {
 
     override func spec() {
-        var subject: AllHospitalsTVC!
+        var vc: AllHospitalsTVC!
         
         describe("MoviesTableViewControllerSpec") {
             beforeEach {
-                let sb = UIStoryboard(name: "Main", bundle: nil)
-                subject = sb.instantiateViewController(withIdentifier: "AllHospitalsTVC") as? AllHospitalsTVC
-                _ = subject.view
+                vc = AllHospitalsTVC()
+                _ = vc.view
             }
             
             context("when view is loaded") {
                 it("should have 3 Hospitals loaded") {
-                    expect(subject.tableView.numberOfRows(inSection: 0)).to(equal(3))
+                    expect(vc.tableView.numberOfRows(inSection: 0)).to(equal(3))
                 }
             }
             
@@ -35,7 +34,7 @@ class AllHospitalsTVCTest: QuickSpec {
                 var cell: CellTitleDetails!
                 
                 beforeEach {
-                    cell = subject.tableView(subject.tableView, cellForRowAt: IndexPath(row: 0, section: 0)) as? CellTitleDetails
+                    cell = vc.tableView(vc.tableView, cellForRowAt: IndexPath(row: 0, section: 0)) as? CellTitleDetails
                 }
                 it("should show Medicity as title and details as ID 1") {
                     expect(cell.titleLabel?.text).to(equal("Medicity"))
