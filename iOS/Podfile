@@ -4,19 +4,19 @@ platform :ios, '11.0'
 target 'Aashvi Care' do
   use_frameworks!
 
-  # Pods for Aashvi Care
+  # Firebase
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Fabric', '~> 1.9.0'
   pod 'Crashlytics', '~> 3.12.0'
 
+  # Networking - JSON Parsing
   pod 'SwiftyJSON'
+  pod 'Alamofire', '~> 5.0.0-beta.5'
   pod 'RxSwift'
   
-  target 'Aashvi CareUITests' do
-    inherit! :search_paths
-  end
-
+  # Async Display Kit
+  pod 'Texture/IGListKit'
 end
 
 target 'Aashvi CareTests' do
@@ -26,3 +26,8 @@ target 'Aashvi CareTests' do
   
   pod 'Firebase'
 end
+
+target 'Aashvi CareUITests' do
+  inherit! :search_paths
+end
+

@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.8.2)
   - Crashlytics (3.12.0):
     - Fabric (~> 1.9.0)
   - Fabric (1.9.0)
@@ -59,6 +60,11 @@ PODS:
   - GoogleUtilities/UserDefaults (5.7.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.2.1)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
@@ -68,8 +74,13 @@ PODS:
   - Quick (2.1.0)
   - RxSwift (4.5.0)
   - SwiftyJSON (5.0.0)
+  - Texture/Core (2.8)
+  - Texture/IGListKit (2.8):
+    - IGListKit (~> 3.0)
+    - Texture/Core
 
 DEPENDENCIES:
+  - Alamofire
   - Crashlytics (~> 3.12.0)
   - Fabric (~> 1.9.0)
   - Firebase
@@ -79,9 +90,11 @@ DEPENDENCIES:
   - Quick (~> 2.1.0)
   - RxSwift
   - SwiftyJSON
+  - Texture/IGListKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
     - Crashlytics
     - Fabric
     - Firebase
@@ -93,13 +106,16 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - GTMSessionFetcher
+    - IGListKit
     - nanopb
     - Nimble
     - Quick
     - RxSwift
     - SwiftyJSON
+    - Texture
 
 SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
   Fabric: f988e33c97f08930a413e08123064d2e5f68d655
   Firebase: 0c8cf33f266410c61ab3e2265cfa412200351d9c
@@ -111,12 +127,14 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
   GoogleUtilities: 273e67030e0de313e7304f6dcfa96fc5214f6c23
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
   RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Texture: fc6e0157201f3a6e503d364c147b1872e365cef4
 
-PODFILE CHECKSUM: 151d82750e3261d85510447520aebf4564e84e97
+PODFILE CHECKSUM: f1faec65e395b3858d324ae69ffc9a70d2314165
 
 COCOAPODS: 1.6.1

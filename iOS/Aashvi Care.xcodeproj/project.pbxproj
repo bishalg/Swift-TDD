@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		032D2EF1845200770367EC02 /* libPods-Aashvi CareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E81266F149917C9412B1C4E /* libPods-Aashvi CareTests.a */; };
 		050A9C4B2261EC6A0015DFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A9C4A2261EC6A0015DFF9 /* AppDelegate.swift */; };
-		050A9C502261EC6A0015DFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C4E2261EC6A0015DFF9 /* Main.storyboard */; };
 		050A9C522261EC6B0015DFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C512261EC6B0015DFF9 /* Assets.xcassets */; };
 		050A9C552261EC6B0015DFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */; };
 		050A9C6B2261EC6C0015DFF9 /* Aashvi_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A9C6A2261EC6C0015DFF9 /* Aashvi_CareUITests.swift */; };
@@ -39,7 +38,7 @@
 		05C76C66227AFAE5006E6BEA /* UIColor+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C65227AFAE5006E6BEA /* UIColor+Style.swift */; };
 		05C76C68227AFB14006E6BEA /* UIFont+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C67227AFB14006E6BEA /* UIFont+Style.swift */; };
 		05C76C6A227AFC8C006E6BEA /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C69227AFC8C006E6BEA /* Style.swift */; };
-		5855F7B5704BBE02DE61D6F0 /* Pods_Aashvi_CareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */; };
+		D5C343557277AAB9D5BADACE /* libPods-Aashvi CareUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD8B8D7374B1E096682C348 /* libPods-Aashvi CareUITests.a */; };
 		F20B0CDBFFB40E1161FAB956 /* Pods_Aashvi_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +62,6 @@
 /* Begin PBXFileReference section */
 		050A9C472261EC6A0015DFF9 /* Aashvi Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aashvi Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		050A9C4A2261EC6A0015DFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		050A9C4F2261EC6A0015DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		050A9C512261EC6B0015DFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		050A9C542261EC6B0015DFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		050A9C562261EC6B0015DFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,8 +102,8 @@
 		8C2522B1C6FCA0FE3C24743C /* Pods-Aashvi Care.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi Care.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care.release.xcconfig"; sourceTree = "<group>"; };
 		8E81266F149917C9412B1C4E /* libPods-Aashvi CareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aashvi CareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A67CC6C298C323CEF0D002F /* Pods-Aashvi CareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareTests/Pods-Aashvi CareTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACD8B8D7374B1E096682C348 /* libPods-Aashvi CareUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aashvi CareUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DDEF6162A72F1FD31611EC /* Pods-Aashvi CareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareUITests/Pods-Aashvi CareUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aashvi_CareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1326D8152C3644DDAD6DB62 /* Pods-Aashvi CareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareTests/Pods-Aashvi CareTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5855F7B5704BBE02DE61D6F0 /* Pods_Aashvi_CareUITests.framework in Frameworks */,
+				D5C343557277AAB9D5BADACE /* libPods-Aashvi CareUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,7 +167,6 @@
 				0533326E2278407700E33642 /* ViewControllers */,
 				050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */,
 				050A9C4A2261EC6A0015DFF9 /* AppDelegate.swift */,
-				050A9C4E2261EC6A0015DFF9 /* Main.storyboard */,
 				050A9C512261EC6B0015DFF9 /* Assets.xcassets */,
 				050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */,
 				050A9C562261EC6B0015DFF9 /* Info.plist */,
@@ -359,8 +356,8 @@
 			isa = PBXGroup;
 			children = (
 				4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */,
-				DC1753F3B8CB21449EA14F81 /* Pods_Aashvi_CareUITests.framework */,
 				8E81266F149917C9412B1C4E /* libPods-Aashvi CareTests.a */,
+				ACD8B8D7374B1E096682C348 /* libPods-Aashvi CareUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -481,7 +478,6 @@
 				05C76C3D227A9AF4006E6BEA /* Hospitals.json in Resources */,
 				05C76C5C227ADB56006E6BEA /* HospitalProfileCell.xib in Resources */,
 				0533327C2278435E00E33642 /* HospitalCell.xib in Resources */,
-				050A9C502261EC6A0015DFF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,20 +592,26 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -680,14 +682,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		050A9C4E2261EC6A0015DFF9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				050A9C4F2261EC6A0015DFF9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		050A9C532261EC6B0015DFF9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
