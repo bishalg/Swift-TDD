@@ -17,6 +17,9 @@
 		0510C892227C0F5200D0B492 /* HospitalFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C891227C0F5200D0B492 /* HospitalFeedModel.swift */; };
 		0510C894227C13C700D0B492 /* HospitalFeedSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C893227C13C700D0B492 /* HospitalFeedSectionController.swift */; };
 		0510C896227C23E900D0B492 /* HospitalCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C895227C23E900D0B492 /* HospitalCellNode.swift */; };
+		0510C89A227C29B900D0B492 /* Hospitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 0510C899227C29B900D0B492 /* Hospitals.json */; };
+		0510C89C227C29C500D0B492 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C89B227C29C500D0B492 /* Router.swift */; };
+		0510C89E227C2F1E00D0B492 /* MarketSummaryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0510C89D227C2F1E00D0B492 /* MarketSummaryRequest.swift */; };
 		053332692278373A00E33642 /* AllHospitalsTVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332682278373A00E33642 /* AllHospitalsTVCTests.swift */; };
 		053332702278407700E33642 /* AllHospitalsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533326F2278407700E33642 /* AllHospitalsTVC.swift */; };
 		053332732278409D00E33642 /* HospitalDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332722278409D00E33642 /* HospitalDataHelper.swift */; };
@@ -25,7 +28,6 @@
 		0533327C2278435E00E33642 /* HospitalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0533327A2278435E00E33642 /* HospitalCell.xib */; };
 		053332812278652300E33642 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332802278652300E33642 /* UILabel+Extension.swift */; };
 		053332832278672700E33642 /* UILabelExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332822278672700E33642 /* UILabelExtensionsTests.swift */; };
-		05C76C3D227A9AF4006E6BEA /* Hospitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 05C76C3C227A9AF4006E6BEA /* Hospitals.json */; };
 		05C76C40227AA5AC006E6BEA /* CellTitlePresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C3F227AA5AC006E6BEA /* CellTitlePresentable.swift */; };
 		05C76C45227AA97F006E6BEA /* CellTitleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C43227AA97F006E6BEA /* CellTitleDetails.swift */; };
 		05C76C46227AA97F006E6BEA /* CellTitleDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C76C44227AA97F006E6BEA /* CellTitleDetails.xib */; };
@@ -79,6 +81,9 @@
 		0510C891227C0F5200D0B492 /* HospitalFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalFeedModel.swift; sourceTree = "<group>"; };
 		0510C893227C13C700D0B492 /* HospitalFeedSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalFeedSectionController.swift; sourceTree = "<group>"; };
 		0510C895227C23E900D0B492 /* HospitalCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalCellNode.swift; sourceTree = "<group>"; };
+		0510C899227C29B900D0B492 /* Hospitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hospitals.json; sourceTree = "<group>"; };
+		0510C89B227C29C500D0B492 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0510C89D227C2F1E00D0B492 /* MarketSummaryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketSummaryRequest.swift; sourceTree = "<group>"; };
 		053332682278373A00E33642 /* AllHospitalsTVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHospitalsTVCTests.swift; sourceTree = "<group>"; };
 		0533326F2278407700E33642 /* AllHospitalsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllHospitalsTVC.swift; sourceTree = "<group>"; };
 		053332722278409D00E33642 /* HospitalDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalDataHelper.swift; sourceTree = "<group>"; };
@@ -87,7 +92,6 @@
 		0533327A2278435E00E33642 /* HospitalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalCell.xib; sourceTree = "<group>"; };
 		053332802278652300E33642 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		053332822278672700E33642 /* UILabelExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensionsTests.swift; sourceTree = "<group>"; };
-		05C76C3C227A9AF4006E6BEA /* Hospitals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hospitals.json; sourceTree = "<group>"; };
 		05C76C3F227AA5AC006E6BEA /* CellTitlePresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitlePresentable.swift; sourceTree = "<group>"; };
 		05C76C43227AA97F006E6BEA /* CellTitleDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitleDetails.swift; sourceTree = "<group>"; };
 		05C76C44227AA97F006E6BEA /* CellTitleDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTitleDetails.xib; sourceTree = "<group>"; };
@@ -168,7 +172,7 @@
 		050A9C492261EC6A0015DFF9 /* Aashvi Care */ = {
 			isa = PBXGroup;
 			children = (
-				05C76C3B227A9ABD006E6BEA /* Stubbed Responses */,
+				0510C897227C299300D0B492 /* Networking */,
 				0533327F2278652300E33642 /* Extension */,
 				053332712278408500E33642 /* Model */,
 				053332762278432C00E33642 /* View */,
@@ -200,6 +204,24 @@
 				050A9C6C2261EC6C0015DFF9 /* Info.plist */,
 			);
 			path = "Aashvi CareUITests";
+			sourceTree = "<group>";
+		};
+		0510C897227C299300D0B492 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0510C89D227C2F1E00D0B492 /* MarketSummaryRequest.swift */,
+				0510C89B227C29C500D0B492 /* Router.swift */,
+				0510C898227C29B900D0B492 /* Stubbed Responses */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0510C898227C29B900D0B492 /* Stubbed Responses */ = {
+			isa = PBXGroup;
+			children = (
+				0510C899227C29B900D0B492 /* Hospitals.json */,
+			);
+			path = "Stubbed Responses";
 			sourceTree = "<group>";
 		};
 		0533326E2278407700E33642 /* ViewControllers */ = {
@@ -244,14 +266,6 @@
 				05C76C4F227ABF24006E6BEA /* UITableView+Extension.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		05C76C3B227A9ABD006E6BEA /* Stubbed Responses */ = {
-			isa = PBXGroup;
-			children = (
-				05C76C3C227A9AF4006E6BEA /* Hospitals.json */,
-			);
-			path = "Stubbed Responses";
 			sourceTree = "<group>";
 		};
 		05C76C3E227AA588006E6BEA /* Protocol */ = {
@@ -483,11 +497,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0510C89A227C29B900D0B492 /* Hospitals.json in Resources */,
 				050A9C552261EC6B0015DFF9 /* LaunchScreen.storyboard in Resources */,
 				050A9C792261ECAE0015DFF9 /* GoogleService-Info.plist in Resources */,
 				05C76C46227AA97F006E6BEA /* CellTitleDetails.xib in Resources */,
 				050A9C522261EC6B0015DFF9 /* Assets.xcassets in Resources */,
-				05C76C3D227A9AF4006E6BEA /* Hospitals.json in Resources */,
 				05C76C5C227ADB56006E6BEA /* HospitalProfileCell.xib in Resources */,
 				0533327C2278435E00E33642 /* HospitalCell.xib in Resources */,
 			);
@@ -650,10 +664,12 @@
 				05C76C5B227ADB56006E6BEA /* HospitalProfileCell.swift in Sources */,
 				05333275227840C800E33642 /* Hospital.swift in Sources */,
 				05C76C64227AF9A4006E6BEA /* UILabel+Style.swift in Sources */,
+				0510C89E227C2F1E00D0B492 /* MarketSummaryRequest.swift in Sources */,
 				05C76C4C227ABD6F006E6BEA /* NibLoadableView.swift in Sources */,
 				053332812278652300E33642 /* UILabel+Extension.swift in Sources */,
 				0510C892227C0F5200D0B492 /* HospitalFeedModel.swift in Sources */,
 				0510C896227C23E900D0B492 /* HospitalCellNode.swift in Sources */,
+				0510C89C227C29C500D0B492 /* Router.swift in Sources */,
 				05C76C68227AFB14006E6BEA /* UIFont+Style.swift in Sources */,
 				05C76C48227AB548006E6BEA /* Coordinate.swift in Sources */,
 				050A9C4B2261EC6A0015DFF9 /* AppDelegate.swift in Sources */,

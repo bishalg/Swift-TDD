@@ -16,9 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        /// Fabric Setup
         FirebaseApp.configure()
         Fabric.with([Crashlytics.self])
         
+        /// Root Window Setup
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.backgroundColor = .white
         let allHospitalsTVC = AllHospitalsTVC(style: .plain)
@@ -26,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController =  navBar
         window.makeKeyAndVisible()
         self.window = window
+        
         return true
     }
 
