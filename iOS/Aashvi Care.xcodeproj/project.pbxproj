@@ -28,6 +28,8 @@
 		0533327C2278435E00E33642 /* HospitalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0533327A2278435E00E33642 /* HospitalCell.xib */; };
 		053332812278652300E33642 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332802278652300E33642 /* UILabel+Extension.swift */; };
 		053332832278672700E33642 /* UILabelExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053332822278672700E33642 /* UILabelExtensionsTests.swift */; };
+		05358F4322AFF3C800ED0AA8 /* DateDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05358F4222AFF3C800ED0AA8 /* DateDuration.swift */; };
+		05358F4522AFF3EE00ED0AA8 /* DateDurationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05358F4422AFF3EE00ED0AA8 /* DateDurationTest.swift */; };
 		05C76C40227AA5AC006E6BEA /* CellTitlePresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C3F227AA5AC006E6BEA /* CellTitlePresentable.swift */; };
 		05C76C45227AA97F006E6BEA /* CellTitleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C43227AA97F006E6BEA /* CellTitleDetails.swift */; };
 		05C76C46227AA97F006E6BEA /* CellTitleDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C76C44227AA97F006E6BEA /* CellTitleDetails.xib */; };
@@ -92,6 +94,8 @@
 		0533327A2278435E00E33642 /* HospitalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HospitalCell.xib; sourceTree = "<group>"; };
 		053332802278652300E33642 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		053332822278672700E33642 /* UILabelExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensionsTests.swift; sourceTree = "<group>"; };
+		05358F4222AFF3C800ED0AA8 /* DateDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDuration.swift; sourceTree = "<group>"; };
+		05358F4422AFF3EE00ED0AA8 /* DateDurationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDurationTest.swift; sourceTree = "<group>"; };
 		05C76C3F227AA5AC006E6BEA /* CellTitlePresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitlePresentable.swift; sourceTree = "<group>"; };
 		05C76C43227AA97F006E6BEA /* CellTitleDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitleDetails.swift; sourceTree = "<group>"; };
 		05C76C44227AA97F006E6BEA /* CellTitleDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTitleDetails.xib; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 				0510C897227C299300D0B492 /* Networking */,
 				0533327F2278652300E33642 /* Extension */,
 				053332712278408500E33642 /* Model */,
+				05C76C3E227AA588006E6BEA /* Protocol */,
 				053332762278432C00E33642 /* View */,
 				0533326E2278407700E33642 /* ViewControllers */,
 				050A9C782261ECAE0015DFF9 /* GoogleService-Info.plist */,
@@ -239,10 +244,10 @@
 			children = (
 				0510C891227C0F5200D0B492 /* HospitalFeedModel.swift */,
 				0510C893227C13C700D0B492 /* HospitalFeedSectionController.swift */,
-				05C76C3E227AA588006E6BEA /* Protocol */,
 				053332722278409D00E33642 /* HospitalDataHelper.swift */,
 				05333274227840C800E33642 /* Hospital.swift */,
 				05C76C47227AB548006E6BEA /* Coordinate.swift */,
+				05358F4222AFF3C800ED0AA8 /* DateDuration.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				05C76C60227AECEE006E6BEA /* HospitalTests.swift */,
+				05358F4422AFF3EE00ED0AA8 /* DateDurationTest.swift */,
 			);
 			path = ModelTests;
 			sourceTree = "<group>";
@@ -419,6 +425,7 @@
 				050A9C572261EC6C0015DFF9 /* Sources */,
 				050A9C582261EC6C0015DFF9 /* Frameworks */,
 				050A9C592261EC6C0015DFF9 /* Resources */,
+				16F359C7DE877F4FC435D713 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -543,6 +550,28 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/upload-symbols\" -gsp \"${PROJECT_DIR}/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n\necho \"${DWARF_DSYM_FOLDER_PATH}\"\necho \"${DWARF_DSYM_FILE_NAME}\"\nexit 0\n";
 		};
+		16F359C7DE877F4FC435D713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aashvi CareTests/Pods-Aashvi CareTests-frameworks.sh",
+				"${PODS_ROOT}/EarlGrey/EarlGrey/EarlGrey.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EarlGrey.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aashvi CareTests/Pods-Aashvi CareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5B7DAFFF619E1CC920720330 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,6 +692,7 @@
 				05C76C40227AA5AC006E6BEA /* CellTitlePresentable.swift in Sources */,
 				05C76C5B227ADB56006E6BEA /* HospitalProfileCell.swift in Sources */,
 				05333275227840C800E33642 /* Hospital.swift in Sources */,
+				05358F4322AFF3C800ED0AA8 /* DateDuration.swift in Sources */,
 				05C76C64227AF9A4006E6BEA /* UILabel+Style.swift in Sources */,
 				0510C89E227C2F1E00D0B492 /* MarketSummaryRequest.swift in Sources */,
 				05C76C4C227ABD6F006E6BEA /* NibLoadableView.swift in Sources */,
@@ -685,6 +715,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				053332832278672700E33642 /* UILabelExtensionsTests.swift in Sources */,
+				05358F4522AFF3EE00ED0AA8 /* DateDurationTest.swift in Sources */,
 				05C76C61227AECEE006E6BEA /* HospitalTests.swift in Sources */,
 				053332692278373A00E33642 /* AllHospitalsTVCTests.swift in Sources */,
 			);

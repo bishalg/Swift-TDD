@@ -12,7 +12,7 @@ import Alamofire
 class MarketSummaryRequest {
     
     class func get() {
-        Alamofire.request(Router.marketSummary).responseJSON { response in
+        AF.request(Router.marketSummary).responseJSON { response in
             print(response)
         }
      }

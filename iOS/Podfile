@@ -23,6 +23,8 @@ target 'Aashvi CareTests' do
   inherit! :search_paths
   pod 'Quick', '~> 2.1.0'
   pod 'Nimble', '~> 8.0.1'
+  pod 'OHHTTPStubs/Swift'
+  pod 'EarlGrey'
   
   pod 'Firebase'
 end

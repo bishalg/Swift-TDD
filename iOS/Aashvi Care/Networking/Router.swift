@@ -7,14 +7,13 @@
 //
 // https://www.raywenderlich.com/35-alamofire-tutorial-getting-startedhttps://www.raywenderlich.com/35-alamofire-tutorial-getting-started
 
-
 import Foundation
 import Alamofire
 
 enum Router: URLRequestConvertible {
     
     enum Constants {
-        static let baseURLPath = "http://192.168.50.102:8080/"
+        static let baseURLPath = "http://192.168.1.2/"
         static let authenticationToken = "xxx"
     }
     
@@ -32,7 +31,7 @@ enum Router: URLRequestConvertible {
     var path: String {
         switch self {
         case .marketSummary:
-            return "nepse-website/nots/market-summary/"
+            return "/market-summary/"
         default:
             return ""
         }
