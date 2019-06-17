@@ -16,20 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        /// Fabric Setup
+        fabricSetup()
+        rootWindow()
+        return true
+    }
+    
+    /// Fabric Setup
+    func fabricSetup() {
         FirebaseApp.configure()
         Fabric.with([Crashlytics.self])
-        
-        /// Root Window Setup
+    }
+    
+    /// Root Window Setup
+    func rootWindow() {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.backgroundColor = .white
         let allHospitalsTVC = AllHospitalsTVC(style: .plain)
-        let navBar = UINavigationController(rootViewController: allHospitalsTVC)
+        let chartsVC = HospitalChartsVC()
+        let navBar = UINavigationController(rootViewController: chartsVC)
         window.rootViewController =  navBar
         window.makeKeyAndVisible()
         self.window = window
-        
-        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -55,4 +62,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

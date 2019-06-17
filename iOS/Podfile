@@ -17,6 +17,9 @@ target 'Aashvi Care' do
   
   # Async Display Kit
   pod 'Texture/IGListKit'
+  
+  # Graphs
+  pod 'Charts', '3.3.0'
 end
 
 target 'Aashvi CareTests' do

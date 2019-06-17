@@ -46,6 +46,8 @@
 		05C76C66227AFAE5006E6BEA /* UIColor+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C65227AFAE5006E6BEA /* UIColor+Style.swift */; };
 		05C76C68227AFB14006E6BEA /* UIFont+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C67227AFB14006E6BEA /* UIFont+Style.swift */; };
 		05C76C6A227AFC8C006E6BEA /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C76C69227AFC8C006E6BEA /* Style.swift */; };
+		05D9F95A22B74F92004E61D9 /* HospitalChartsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F95922B74F92004E61D9 /* HospitalChartsVC.swift */; };
+		05D9F95C22B7554E004E61D9 /* BarChartView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F95B22B7554E004E61D9 /* BarChartView+Extension.swift */; };
 		D5C343557277AAB9D5BADACE /* libPods-Aashvi CareUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD8B8D7374B1E096682C348 /* libPods-Aashvi CareUITests.a */; };
 		F20B0CDBFFB40E1161FAB956 /* Pods_Aashvi_Care.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */; };
 /* End PBXBuildFile section */
@@ -112,6 +114,8 @@
 		05C76C65227AFAE5006E6BEA /* UIColor+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Style.swift"; sourceTree = "<group>"; };
 		05C76C67227AFB14006E6BEA /* UIFont+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Style.swift"; sourceTree = "<group>"; };
 		05C76C69227AFC8C006E6BEA /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		05D9F95922B74F92004E61D9 /* HospitalChartsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalChartsVC.swift; sourceTree = "<group>"; };
+		05D9F95B22B7554E004E61D9 /* BarChartView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BarChartView+Extension.swift"; sourceTree = "<group>"; };
 		4A46192F2D3365FE236F0EB9 /* Pods_Aashvi_Care.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aashvi_Care.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C818D452D3ADAB42B472FE /* Pods-Aashvi CareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi CareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi CareUITests/Pods-Aashvi CareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		713451B5187B49842A1B8EA1 /* Pods-Aashvi Care.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aashvi Care.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +239,7 @@
 				0510C88F227C03D900D0B492 /* HospitalListVC.swift */,
 				0533326F2278407700E33642 /* AllHospitalsTVC.swift */,
 				05C76C53227ADA0F006E6BEA /* HospitalDetailsVC.swift */,
+				05D9F95922B74F92004E61D9 /* HospitalChartsVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			children = (
 				053332802278652300E33642 /* UILabel+Extension.swift */,
 				05C76C4F227ABF24006E6BEA /* UITableView+Extension.swift */,
+				05D9F95B22B7554E004E61D9 /* BarChartView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -648,6 +654,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Aashvi Care/Pods-Aashvi Care-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
@@ -661,6 +668,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
@@ -685,6 +693,7 @@
 				053332702278407700E33642 /* AllHospitalsTVC.swift in Sources */,
 				05C76C6A227AFC8C006E6BEA /* Style.swift in Sources */,
 				05C76C54227ADA0F006E6BEA /* HospitalDetailsVC.swift in Sources */,
+				05D9F95A22B74F92004E61D9 /* HospitalChartsVC.swift in Sources */,
 				05C76C4A227AB601006E6BEA /* JSONAbleType.swift in Sources */,
 				05C76C66227AFAE5006E6BEA /* UIColor+Style.swift in Sources */,
 				05C76C45227AA97F006E6BEA /* CellTitleDetails.swift in Sources */,
@@ -705,6 +714,7 @@
 				050A9C4B2261EC6A0015DFF9 /* AppDelegate.swift in Sources */,
 				0533327B2278435E00E33642 /* HospitalCell.swift in Sources */,
 				053332732278409D00E33642 /* HospitalDataHelper.swift in Sources */,
+				05D9F95C22B7554E004E61D9 /* BarChartView+Extension.swift in Sources */,
 				05C76C50227ABF24006E6BEA /* UITableView+Extension.swift in Sources */,
 				0510C894227C13C700D0B492 /* HospitalFeedSectionController.swift in Sources */,
 			);
